@@ -1,0 +1,174 @@
+// Variable Section
+$you-tube: 'Roboto', sans-serif;
+$grey: #d7dbe2;
+
+// Extenders
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// Universal Resets
+* {
+  list-style-type: none;
+  font-family: $you-tube;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+// Header Nav Bar
+header {
+      nav{
+      display: flex;
+    }
+    .youtube_logo {
+    border-right: 2px solid $grey;
+    width: 15%
+    }
+    .search_bar {
+      width: 40%;
+      @extend %center;
+      border-right: 2px solid $grey;
+    }
+    .drop_down{
+      width: 15%;
+      @extend %center;
+      border-right: 2px solid $grey;
+    }
+    .grid {
+      @extend %center;
+      padding: 0.5em;
+    }
+    .upload {
+      width: 10%;
+      @extend %center;
+      background-color: #ff0000;
+    }
+
+    .fas {
+      width: auto;
+    }
+}
+
+
+// Main video Display
+main {
+
+    .main_video, .scroll_bar{
+      width: 100%;
+      height: 100%;
+      display: flex;
+    }
+    .title {
+      background-color: #212527;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .fa-circle-notch{
+      color: green;
+    }
+  }
+
+
+
+// Footer
+  footer {
+    // Sub-Settings
+    .sub_settings {
+      width: 100%;
+      @extend %center;
+      justify-content: space-around;
+      background-color: #2d3437;
+      color: #5f6870;
+      padding: 10px;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .far {
+          font-size: 1.25em;
+        }
+        div {
+          width: 10%;
+          @extend %center;
+        }
+        .profile_info {
+          width: 25%;
+          font-size: 0.8em;
+        }
+        [type=submit]{
+          padding: 1px 4px;
+        }
+    }
+    // Comments Sections
+    .comment_section {
+      display: flex;
+      .user_comments{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 10%;
+        margin: 8px;
+      }
+      .comment_profile_pic{
+        font-size: 1.5em;
+      }
+      .vl {
+        border-left: 4px solid $grey;
+        height: 8em;
+      }
+      .comment_one, .comment_two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .comment_name{
+        display: flex;
+        align-items: center;
+      }
+      .name{
+        color: #6398cc;
+        font-size: 24px;
+      }
+      .age{
+        color: #5f6870;
+        font-size: 14px;
+        padding: 1em;
+      }
+      .comment_likes{
+        margin: 5px;
+      }
+      .fa-thumbs-down, .fa-thumbs-up{
+      padding: 5px;
+      }
+    }
+}
+
+//
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .bar,.mobile {
+    font-size: 0;
+    width: 0px;
+    height: 0px;
+  }
+  header{
+    .youtube_logo {
+      width: 25%
+    }
+  }
+}
