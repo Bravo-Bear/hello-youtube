@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ed's Youtube Sections</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="youtube_logo">
+          <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c548.png" alt="Youtube" width="100%">
+        </div>
+        <div class="search_bar">
+          <i class="fas fa-search"></i>
+          <form class="bar" action="index.html" method="post">
+            <input type="text" name="tube_search" placeholder="Search">
+          </form>
+        </div>
+        <div class="drop_down">
+          <ul>
+            <li class="mobile">Kendrick</li>
+            <li><i class="fas fa-caret-down"></i></li>
+          </ul>
+        </div>
+        <div class="grid">
+          <i class="fas fa-th"></i>
+        </div>
+        <div class="upload drop_down">
+          <ul>
+            <li class="mobile">Upload</li>
+            <li><i class="fas fa-caret-down"></i></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="big_bar mobile left">
+      <div class="sidebar mobile">
+        <div class="guide">
+          Guide
+        </div>
+        <div class="guide_settings">
+          <ul>
+            <li><i class="far fa-user"></i> Kendrick</li>
+            <li><i class="fas fa-globe-americas"></i>To watch</li>
+            <li><i class="far fa-heart"></i> Subscriptions</li>
+            <li><i class="far fa-user-friends"></i> Social</li>
+            <li><i class="fas fa-history"></i> Histroy</li>
+            <li><i class="far fa-clock"></i> Watch Later</li>
+          </ul>
+        </div>
+        <div class="sub">
+          <ul>
+            <li>Subscriptions</li>
+            <li><i class="fas fa-search"></i></li>
+          </ul>
+        </div>
+        <div class="subscriptions">
+          <ul>
+            <li> <img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/09_home-512.png" alt="plceholder" class="mobile" width="15px"> Disiz </li>
+            <li> <img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/09_home-512.png" alt="plceholder" class="mobile" width="15px"> MisterV </li>
+            <li> <img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/09_home-512.png" alt="plceholder" class="mobile" width="15px"> Ukudood </li>
+            <li> <img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/09_home-512.png" alt="plceholder" class="mobile" width="15px"> Smosh </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <main class="middle">
+      <div class="video">
+        <div class="photo mobile">
+          <img src="http://www.splendidwallpaper.com/wp-content/uploads/swiss_alps_glacier_wallpaper-1080x1920.jpg" class="mobile" alt="Mountain_Left" width="100%" height="100%">
+        </div>
+        <div class="main_video">
+          <img src="https://www.worldatlas.com/r/w728-h425-c728x425/upload/70/32/73/shutterstock-310887800.jpg" alt="Main_Mountatin" width="100%" height="100%">
+          <img src="https://lh3.googleusercontent.com/mub-JX3kGTT8CBnyJb-kcEU-VDaY5I-yLQy5rrm_v-hTsywkQBRL3ySvpoZuij7J_0O-C9biNqo4XnmAM8ca=w1853-h981-rw" alt="scroll" width="100%" height="100%">
+        </div>
+        <div class="photo mobile">
+          <img src="http://www.splendidwallpaper.com/wp-content/uploads/swiss_alps_glacier_wallpaper-1080x1920.jpg" alt="Mountain_Right" class="mobile" width="100%" height="100%">
+        </div>
+      </div>
+      <div class="title_bar">
+        <ul class="title">
+          <li>Wingsuit - Best moments</li>
+          <li><i class="fas fa-circle-notch"></i> 233,589 </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="sub_settings">
+        <div class="profile_pic">
+          <i class="far fa-user-circle"></i>
+        </div>
+        <div class="profile_info">
+          <ul>
+            <li>Mary Doe</li>
+            <li><input type="submit" name="Subscribe" value="Subscribe"></li>
+          </ul>
+        </div>
+        <div class="comment">
+            <ul>
+              <li><i class="far fa-comment-alt"></i></li>
+              <li class="mobile">Comment</li>
+            </ul>
+        </div>
+        <div class="add_to">
+          <ul>
+            <li><i class="far fa-plus-square"></i></li>
+            <li class="mobile">Add To</li>
+          </ul>
+        </div>
+        <div class="share">
+          <ul>
+            <li><i class="far fa-share-square"></i></li>
+            <li class="mobile">Share</li>
+          </ul>
+        </div>
+        <div class="like">
+          <ul>
+            <li><i class="far fa-thumbs-up"></i></li>
+            <li class="mobile">Like</li>
+          </ul>
+        </div>
+        <div class="dislike">
+          <ul>
+            <li><i class="far fa-thumbs-down"></i></li>
+            <li class="mobile">Dislike</li>
+          </ul>
+        </div>
+      </div>
+      <div class="comment_section">
+        <div class="user_comments">
+          <div class="comment_profile_pic">
+            <i class="far fa-user-circle"></i>
+          </div>
+          <div class="vl">
+          </div>
+          <div class="comment_profile_pic">
+            <i class="far fa-user-circle"></i>
+          </div>
+        </div>
+        <div class="comments">
+          <div class="comment_one">
+            <div>
+              <ul class="comment_name">
+                <li class="name">Mary Doe</li>
+                <li class="age">1 month ago</li>
+              </ul>
+            </div>
+            <div class="comment_text">
+              This video presents some of the top flyers of the winguit proximity flying. Flying undiscovered lines in Frances and Switzerland. Follow me @maryDoeTweets
+            </div>
+            <div class="comment_likes">
+              12 <i class="far fa-thumbs-up"></i> <i class="far fa-thumbs-down"></i>
+            </div>
+          </div>
+          <div class="comment_two">
+            <div class="comment_name">
+              <p class="name">Laura Smith</p>
+            </div>
+            <div class="comment_text">
+              Woaw, this is awesome. Could you give me more information about the spot locations in France? These landscapes are truly amazing ! Nice video.
+            </div>
+            <div class="right_blank">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <div class="filler_bar">
+    </div>
+    <div class="red_line"> -->
+
+    </div>
+  </body>
+</html>
